@@ -1,0 +1,59 @@
+/* 3. Body Background, Text Color, and Font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #e41a1a;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* 4. Style Headings and Paragraphs */
+h1, h2 {
+    color: #097cf7;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* 5. Navigation Links Readable and Attractive */
+nav a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e2e8f0;
+    color: #003d82;
+    text-decoration: underline;
+}
+
+/* Main Content & Footer Sections */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #e70909;
+    font-size: 14px;
+}

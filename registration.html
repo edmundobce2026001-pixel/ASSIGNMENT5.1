@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil & Web Engineering Club - Registration</title>
+    <meta name="description" content="Register to become an active member of the Civil & Web Engineering Club.">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>Club Member Registration</h1>
+        <p><em>Join the Civil & Web Engineering Club Today!</em></p>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About Club</a> | 
+            <a href="registration.html">Club Registration</a> | 
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <form action="#" method="POST">
+            <div>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Edmundo Murima" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Student Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="student@college.edu" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="department">Select Department:</label><br>
+                <select id="department" name="department" required>
+                    <option value="">-- Choose Department --</option>
+                    <option value="civil">Civil Engineering</option>
+                    <option value="webdev">Web Development & IT</option>
+                    <option value="other">Other Engineering Branch</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label>Preferred Focus Area:</label><br>
+                <input type="radio" id="focus-web" name="focus" value="web" checked>
+                <label for="focus-web">Web Development</label><br>
+                <input type="radio" id="focus-civil" name="focus" value="civil">
+                <label for="focus-civil">Civil Engineering Structures</label>
+            </div>
+            <br>
+
+            <div>
+                <button type="submit">Submit Registration</button>
+            </div>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Edmundo Murima - Civil & Web Engineering Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
